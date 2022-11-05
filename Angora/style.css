@@ -1,0 +1,196 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.end-20 {
+    right: 20%;
+}
+
+.end-5 {
+    right: 5%;
+}
+
+.end-15 {
+    right: 15%;
+}
+
+.end-25 {
+    right: 25%;
+}
+
+.navbar .icons i:hover {
+    color: red !important;
+}
+
+.navbar li a:hover {
+    color: red !important;
+}
+
+.controller-perant button:hover {
+    background-color: white !important;
+}
+
+.controller-perant button:hover i {
+    color: #1b1b1b !important;
+}
+
+
+/* header {
+    background-image: url(./imgs/slideshow-1.jpeg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+} */
+
+header .carousel-item {
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+header .carousel-item:nth-child(1) {
+    background-image: url(./imgs/slideshow-1.jpeg);
+}
+
+header .carousel-item:nth-child(2) {
+    background-image: url(./imgs/slideshow-2.jpeg);
+}
+
+header .carousel-item:nth-child(3) {
+    background-image: url(./imgs/slideshow-3.jpeg);
+}
+
+.main-section h1::after {
+    position: absolute;
+    content: "";
+    color: rgba(17, 16, 16, 0.1);
+    font-weight: bold;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-size: 4rem;
+    bottom: 0;
+}
+
+.main-section-fir h1::after {
+    content: "A";
+}
+
+.main-section-sec h1::after {
+    content: "O";
+}
+
+.main-section-thr h1::after {
+    content: "S";
+}
+
+.main-section-for h1::after {
+    content: "C";
+}
+
+.main-section-fif h1::after {
+    content: "G";
+}
+
+
+/* .main-title-line::before {
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: green;
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+} */
+
+.Services .container .hov h5:hover {
+    color: red;
+    transition: all 0.4s;
+}
+
+.floating-card {
+    background-color: rgba(182, 48, 48, 0.5);
+    transition: all 0.4s ease-in-out;
+    transform: translateY(7%);
+}
+
+.floating-card-parent:hover .floating-card {
+    display: flex !important;
+    opacity: 100% !important;
+    transform: translateY(0);
+}
+
+.floating-card-parent img {
+    transition: all 0.4s ease-in-out;
+}
+
+.floating-card-parent:hover img {
+    transform: scale(110%);
+}
+
+.floating-card-parent:hover .card-body {
+    color: red !important
+}
+
+.Contact {
+    background-color: #1b1b1b;
+    background-image: url(./imgs/dotted-map.png);
+    width: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: repeat-x;
+}
+
+.Contact .row a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Contact .row .bord {
+    border: 2px solid white !important;
+}
+
+.Contact .hivo a:hover {
+    color: red;
+    transition: all 1s;
+}
+
+.Contact .bord:hover {
+    color: red;
+    transition: all 1s;
+}
+
+.Contact .hover-icon:hover {
+    opacity: 100% !important;
+    transition: all 1s ease-in-out;
+}
+
+.Contact .to-top {
+    top: -40px;
+    left: calc(50% - 40px);
+}
+
+.Get-in-touch .hover h4:hover {
+    color: red;
+    transition: all 1s;
+}
+
+.Get-in-touch .hover a:hover {
+    color: red !important;
+    transition: all 1s;
+}
+
+.footer .foot-right a:hover {
+    color: red !important;
+    transition: all 1s;
+}
+
+.footer .foot-left i:hover {
+    color: red !important;
+    transition: all 1s;
+}
